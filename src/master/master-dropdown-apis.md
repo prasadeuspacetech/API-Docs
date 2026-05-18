@@ -9,6 +9,14 @@
 **Endpoint:**
 `GET /api/auth/marital-statuses/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
+
 **Request:**
 No request body required
 
@@ -40,6 +48,13 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/religions/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
 
 **Request:**
 No request body required
@@ -88,6 +103,13 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/castes/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
 
 **Query Params:**
 - `religion_id` : string (required)
@@ -170,6 +192,13 @@ No request body required
 **Endpoint:**
 `GET /api/auth/subcastes/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
 **Query Params:**
 - `caste_id` : string (required)
 
@@ -227,6 +256,13 @@ No request body required
 **Endpoint:**
 `GET /api/auth/education-levels/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
 **Request:**
 No request body required
 
@@ -266,6 +302,13 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/education-fields/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
 
 **Query Params:**
 - `education_level_id` : string (required)
@@ -323,6 +366,13 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/incomes/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
 
 **Request:**
 No request body required
@@ -392,6 +442,13 @@ No request body required
 **Endpoint:**
 `GET /api/auth/countries/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
 **Request:**
 No request body required
 
@@ -419,6 +476,13 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/states/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
 
 **Query Params:**
 - `country_id` : string (required)
@@ -577,6 +641,13 @@ No request body required
 **Endpoint:**
 `GET /api/auth/cities/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
 **Query Params:**
 - `state_id` : string (required)
 
@@ -618,6 +689,14 @@ No request body required
 **Endpoint:**
 `GET /api/auth/diets/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
+
 **Response (200):**
 ```json
 [
@@ -655,6 +734,14 @@ No request body required
 **Endpoint:**
 `GET /api/auth/body-types/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
+
 **Response (200):**
 ```json
 [
@@ -687,6 +774,14 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/skin-tones/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
 
 **Response (200):**
 ```json
@@ -721,6 +816,14 @@ No request body required
 **Endpoint:**
 `GET /api/auth/currencies/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
+
 **Response (200):**
 ```json
 [
@@ -741,6 +844,14 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/mother-tongues/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
 
 **Response (200):**
 ```json
@@ -819,6 +930,14 @@ No request body required
 **Endpoint:**
 `GET /api/auth/working-categories/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
+
 **Response (200):**
 ```json
 [
@@ -872,6 +991,14 @@ No request body required
 **Endpoint:**
 `GET /api/auth/working-subcategories/list`
 
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
+
 **Query Params:**
 - `category_id`: string (required)
 
@@ -924,6 +1051,14 @@ No request body required
 
 **Endpoint:**
 `GET /api/auth/working-with/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+
+```
 
 **Response (200):**
 ```json
