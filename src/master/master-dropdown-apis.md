@@ -1093,3 +1093,119 @@ Accept-Language: en-US
     }
 ]
 ```
+
+---
+
+## GET Father Statuses (MASTER)
+
+**Endpoint:**
+`GET /api/auth/father-statuses/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
+**Response (200):**
+```json
+[
+    {
+        "id": "c27df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Business"
+    },
+    {
+        "id": "c17df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Employed"
+    },
+    {
+        "id": "c47df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Not Employed"
+    },
+    {
+        "id": "c57df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Passed Away"
+    },
+    {
+        "id": "c37df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Retired"
+    }
+]
+```
+
+---
+
+## GET Mother Statuses (MASTER)
+
+**Endpoint:**
+`GET /api/auth/mother-statuses/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
+**Response (200):**
+```json
+[
+    {
+        "id": "d47df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Business"
+    },
+    {
+        "id": "d37df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Employed"
+    },
+    {
+        "id": "d27df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Homemaker"
+    },
+    {
+        "id": "d67df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Passed Away"
+    },
+    {
+        "id": "d57df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Retired"
+    }
+]
+```
+
+---
+
+## GET Family Affluences (MASTER)
+
+**Endpoint:**
+`GET /api/auth/family-affluence/list`
+
+**Headers:**
+```
+Authorization: Bearer {{token}}
+x-app-type: user
+Accept-Language: en-US
+```
+
+**Response (200):**
+```json
+[
+    {
+        "id": "e27df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Affluent"
+    },
+    {
+        "id": "h57df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Lower Middle Class"
+    },
+    {
+        "id": "g47df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Middle Class"
+    },
+    {
+        "id": "f37df9cd469b4b6d8a8ce9a0bab0106b",
+        "label": "Upper Middle Class"
+    }
+]
+```
